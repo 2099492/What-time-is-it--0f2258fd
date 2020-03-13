@@ -26,3 +26,6 @@ function je_tante() {
   let antwoord = (waarde * waarde * Math.PI * 0.25);
   document.getElementById("text").innerHTML = antwoord;
 }
+
+var tijd = new Date();
+document.getElementById("datetime").innerHTML = tijd.toLocaleTimeString();
